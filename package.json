@@ -1,0 +1,26 @@
+{
+  "name": "witx-planet-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "sitemap": "next-sitemap",
+    "postbuild": "npm run sitemap",
+    "start": "next start",
+    "deploy": "npm run build && npm run start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.0",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "next-sitemap": "3.0.0",
+    "typescript": "5.5.4"
+  }
+}
